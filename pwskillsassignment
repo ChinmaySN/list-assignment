@@ -1,4 +1,34 @@
 Q1: list = []
 
-Q2: s = [1, 'sudh', ]
+Q2: s = [1, 'sudh', 3.14159 , 4+16j]
+    s.append(5)
+    [1, 'sudh', 3.14159, (4+16j), 5]
+
+Q3: s.reverse()
+    s[0]
+    5
+
+Q4:  s.reverse()
+
+Q5: s = [123,5,43,654,5735,2,4,5,62445,78]
+    s.sort()
+    s
+    [2, 4, 5, 5, 43, 78, 123, 654, 5735, 62445]
     
+    s.sort(reverse = True)
+    s
+    [62445, 5735, 654, 123, 78, 43, 5, 5, 4, 2]
+
+Q6: movies = ['The Avengers', 'KGF', 'One Piece']
+    movies[1]
+    'KGF'
+    
+Q7:  anml = ['Dog', 'Cat', 'Lion' ,'Tiger']
+     anml.append('Leopard')
+     anml
+     ['Dog', 'Cat', 'Lion', 'Tiger', 'Leopard']
+
+Q8:  cities = ['Pan India', 'Delhi NCR', 'Mumbai', 'Bangalore', 'Pune', 'Hyderabad', 'Chennai', 'Kolkata']
+     cities.index('Bangalore')
+     
+     3
